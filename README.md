@@ -1,7 +1,7 @@
 <p align='center'> <img src="./src/img/logos/1.png" alt="image of logo"> </p>
 
-<h1 align='center'>Landing Page</h1>
-
+<!-- <h1 align='center'>Landing Page</h1>
+ -->
 <div align='center'>
 	<img src="http://img.shields.io/static/v1?label=STATUS&message=DEVELOPING&color=yellow&style=for-the-badge"/>
 </div>
