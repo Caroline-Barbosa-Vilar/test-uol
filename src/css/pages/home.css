@@ -1,0 +1,32 @@
+#main-header {
+  background-color: var(--accent-color);
+  color: var(--secondary-color);
+}
+#main-header .content {
+  display: flex;
+  justify-content: space-between;
+}
+#presentation {
+  background-image: url(../../../content/img/perfil/1.jpg);
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 16rem;
+}
+#presentation h1 {
+  font-size: 4.5rem;
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#presentation h1 span {
+  background-color: var(--accent-color);
+  padding: .5rem 1rem;
+}
+#presentation h1 span:first-child {
+  margin-bottom: 1rem;
+}
+#presentation .description {
+  max-width: 26rem;
+  margin-top: 1rem;
+}
