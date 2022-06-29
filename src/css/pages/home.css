@@ -8,7 +8,8 @@
 }
 #presentation {
   background-image: url(../../../content/img/perfil/1.jpg);
-  background-size: cover;
+  background-size: cover; 
+  background-position: center;
   padding-top: 8rem;
   padding-bottom: 16rem;
 }
@@ -29,4 +30,23 @@
 #presentation .description {
   max-width: 26rem;
   margin-top: 1rem;
+}
+#presentation .white-block {
+  max-width: 48.125rem;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 3rem 5rem;
+  position: absolute;
+  left: 50%;
+  bottom: -18.5rem;
+  transform: translateX(-50%);
+}
+#presentation .white-block h2 {
+  font-weight: 600;
+  margin: 0 0 1.5rem;
+}
+#information {
+  background-color: black;
+  padding-top: 15rem;
 }
