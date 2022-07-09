@@ -5,6 +5,7 @@
 #main-header .content {
   display: flex;
   justify-content: space-between;
+  padding: 1rem 0;
 }
 #presentation {
   background-image: url(../../../content/img/perfil/1.jpg);
@@ -47,6 +48,49 @@
   margin: 0 0 1.5rem;
 }
 #information {
-  background-color: black;
-  padding-top: 15rem;
+  background: url(../../img/backgrounds/1.png);
+}
+#information .content {
+  padding: 17rem 0 3.5rem;
+}
+#information h2 {
+  color: var(--accent-color);
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+#information .group-text {
+  column-count: 2;
+  column-gap: 3.5rem;
+}
+#products {
+  background-color: var(--tertiary-color);
+}
+#products .content {
+  padding: 3.5rem 0;
+  display: grid;
+  gap: 1.875rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#products .card {
+  max-width: 18.125rem;
+  background-color: var(--primary-color);
+  padding: 2rem;
+  box-shadow: 0 .25rem 1rem rgba(0, 0, 0, 0.25);
+  display: grid;
+  justify-items: center;
+  gap: 1.5rem;
+}
+#products .card h3 {
+  color: var(--accent-color);
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1.5;
+}
+#products .card p {
+  color: var(--secondary-color);
+  text-align: center;
+}
+#products .card img {
+  width: 8.1875rem;
+  height: 8.1875rem;
 }
