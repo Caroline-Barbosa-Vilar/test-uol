@@ -94,3 +94,15 @@
   width: 8.1875rem;
   height: 8.1875rem;
 }
+#footer {
+  background-color: var(--secondary-color);
+}
+#footer .content {
+  height: 3.5rem;
+}
+#footer .content p {
+  color: var(--primary-color);
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1rem 0;
+}
