@@ -133,3 +133,36 @@
     gap: 1rem;
   }
 }
+@media (max-width: 600px) {
+  #presentation .white-block {
+    padding: 3rem;
+  }  
+}
+@media (max-width: 570px) {
+  #products .card {
+    padding: 1rem;
+  }
+}
+@media (max-width: 540px) {
+  #information .content {
+    padding: 18rem 0 3.5rem;
+  }
+}
+@media (max-width: 500px) {
+  #products .content {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 480px) {
+  #presentation h1 {
+    font-size: 3rem;
+  }
+  #information .content {
+    padding: 22rem 0 3.5rem;
+  }
+}
+@media (max-width: 420px) {
+  #information .content {
+    padding: 26rem 0 3.5rem;
+  }  
+}
