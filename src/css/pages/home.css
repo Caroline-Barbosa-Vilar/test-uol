@@ -34,13 +34,14 @@
 }
 #presentation .white-block {
   max-width: 48.125rem;
+  width: 100%;
   background-color: var(--primary-color);
   color: var(--secondary-color);
   text-align: center;
   padding: 3rem 5rem;
   position: absolute;
   left: 50%;
-  bottom: -18.5rem;
+  top: 42rem;
   transform: translateX(-50%);
 }
 #presentation .white-block h2 {
@@ -98,11 +99,37 @@
   background-color: var(--secondary-color);
 }
 #footer .content {
-  height: 3.5rem;
+  padding: 1rem 0;
 }
 #footer .content p {
   color: var(--primary-color);
   text-align: center;
   text-transform: uppercase;
-  padding: 1rem 0;
+}
+@media (max-width: 900px) {
+  #products .content {
+    gap: 1rem;
+  }
+}
+@media (max-width: 800px) {
+  #presentation .white-block {
+    width: calc(100% - 2rem);
+  }
+  #information .group-text {
+    column-count: 1;
+  }
+  #products .content {
+    grid-template-columns: 1fr 1fr;
+  }
+  #products .card {
+    max-width: 100%;
+  }
+}
+@media (max-width: 720px) {
+  #main-header .content {
+    display: grid;
+    justify-content: unset;
+    justify-items: center;
+    gap: 1rem;
+  }
 }
