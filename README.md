@@ -1,7 +1,5 @@
 <p align='center'> <img src="./src/img/logos/1.png" alt="image of logo"> </p>
 
-<!-- <h1 align='center'>Landing Page</h1>
- -->
 <div align='center'>
 	<img src="http://img.shields.io/static/v1?label=STATUS&message=DEVELOPING&color=yellow&style=for-the-badge"/>
 </div>
@@ -16,9 +14,9 @@ _Para a versão em Português, clique [aqui](#portuguese)._
 
 - [Technologies used](#technologies-used)
 
-<!-- - [What I learned](#what-I-learned)
+<!-- - [What I learned](#what-I-learned)-->
 
-- [Access the Project](#access-the-project) -->
+- [Access the Project](#access-the-project) 
 
 
 ## Project description
@@ -32,34 +30,32 @@ This landing page is part of a technical test.
 <div>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">	
 </div>
 
 <!-- ## What I learned
 
 - How to create CSS animations using keyframes;
-
+-->
 
 ## Access the Project
 
-You can [access the project here](https://bo83dev.github.io/alura-plus) 
+You can [access the project here](https://caroline-barbosa-vilar.github.io/test-uol/) 
 
 Mobile
 
-<img src=".gif" alt="">
+<img src="src/test-uol-mobile-screen.gif" alt="the mobile screen gif">
 
-Tablet 
-
-<img src=".gif" alt="">
 
 Desktop 
 
-<img src=".gif" alt=""> -->
+<img src=src/test-uol-desktop-screen.gif" alt="the desktop screen gif">
 
 
 <div id="portuguese">
 
 
-<h1 align='center'>Landing Page</h1>
+<p align='center'> <img src="./src/img/logos/1.png" alt="image of logo"> </p>
 
 
 <div align='center'>
@@ -73,9 +69,9 @@ Desktop
 
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
 
-<!-- - [O que aprendi](#o-que-aprendi)
+<!-- - [O que aprendi](#o-que-aprendi) -->
 
-- [Acesse o projeto](#acesse-o-projeto) -->
+- [Acesse o projeto](#acesse-o-projeto)
 
 
 ## Descrição do projeto 
@@ -90,27 +86,25 @@ Essa landing page é parte de um teste técnico.
 <div>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 </div>
 
 <!-- ## O que aprendi
 
 - Como criar animações com CSS utilizando o keyframes; -->
 
-<!-- ## Acesse o projeto
+ ## Acesse o projeto
 
-Você pode [acessar o projeto aqui](https://bo83dev.github.io/testimonials-project/) 
+Você pode [acessar o projeto aqui](https://caroline-barbosa-vilar.github.io/test-uol/) 
 
 Mobile
 
-<img src=".gif" alt="">
+<img src="src/test-uol-mobile-screen.gif" alt="the mobile screen gif">
 
-Tablet 
-
-<img src=".gif" alt="">
 
 Desktop 
 
-<img src=".gif" alt=""> -->
+<img src="src/test-uol-desktop-screen.gif" alt="the desktop screen gif">
 
 
 <hr>
