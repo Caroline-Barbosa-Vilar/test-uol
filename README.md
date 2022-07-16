@@ -49,7 +49,7 @@ Mobile
 
 Desktop 
 
-<img src=src/test-uol-desktop-screen.gif" alt="the desktop screen gif">
+<img src="src/test-uol-desktop-screen.gif" alt="the desktop screen gif">
 
 
 <div id="portuguese">
