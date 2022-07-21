@@ -2,11 +2,41 @@
   background-color: var(--accent-color);
   color: var(--secondary-color);
 }
-#main-header .content {
+  #main-header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+  }
+
+#main-header nav {
   display: flex;
-  justify-content: space-between;
-  padding: 1rem 0;
 }
+  #main-header nav .menu {
+    display: none;
+  }
+  #main-header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  #main-header nav ul li {
+    margin-right: 1rem;
+  }
+  #main-header nav ul li:last-child {
+    margin-right: 0;
+  } 
+  #main-header nav a {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    font-weight: 600;
+    text-decoration: none;
+  }
+  #main-header nav a:hover {
+    text-decoration: underline;
+  }
+
 #presentation {
   background-image: url(../../../content/img/perfil/1.jpg);
   background-size: cover; 
@@ -14,103 +44,108 @@
   padding-top: 8rem;
   padding-bottom: 16rem;
 }
-#presentation h1 {
-  font-size: 4.5rem;
-  line-height: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-#presentation h1 span {
-  background-color: var(--accent-color);
-  padding: .5rem 1rem;
-}
-#presentation h1 span:first-child {
-  margin-bottom: 1rem;
-}
-#presentation .description {
-  max-width: 26rem;
-  margin-top: 1rem;
-}
-#presentation .white-block {
-  max-width: 48.125rem;
-  width: 100%;
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-  text-align: center;
-  padding: 3rem 5rem;
-  position: absolute;
-  left: 50%;
-  top: 42rem;
-  transform: translateX(-50%);
-}
-#presentation .white-block h2 {
-  font-weight: 600;
-  margin: 0 0 1.5rem;
-}
+  #presentation h1 {
+    font-size: 4.5rem;
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #presentation h1 span {
+    background-color: var(--accent-color);
+    padding: .5rem 1rem;
+  }
+  #presentation h1 span:first-child {
+    margin-bottom: 1rem;
+  }
+  #presentation .description {
+    max-width: 26rem;
+    margin-top: 1rem;
+  }
+  #presentation .white-block {
+    max-width: 48.125rem;
+    width: 100%;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 3rem 5rem;
+    position: absolute;
+    left: 50%;
+    top: 42rem;
+    transform: translateX(-50%);
+  }
+  #presentation .white-block h2 {
+    font-weight: 600;
+    margin: 0 0 1.5rem;
+  }
+
 #information {
   background: url(../../img/backgrounds/1.png);
 }
-#information .content {
-  padding: 17rem 0 3.5rem;
-}
-#information h2 {
-  color: var(--accent-color);
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-}
-#information .group-text {
-  column-count: 2;
-  column-gap: 3.5rem;
-}
+  #information .content {
+    padding: 17rem 0 3.5rem;
+  }
+  #information h2 {
+    color: var(--accent-color);
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  #information .group-text {
+    column-count: 2;
+    column-gap: 3.5rem;
+  }
+
 #products {
   background-color: var(--tertiary-color);
 }
-#products .content {
-  padding: 3.5rem 0;
-  display: grid;
-  gap: 1.875rem;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-#products .card {
-  max-width: 18.125rem;
-  background-color: var(--primary-color);
-  padding: 2rem;
-  box-shadow: 0 .25rem 1rem rgba(0, 0, 0, 0.25);
-  display: grid;
-  justify-items: center;
-  gap: 1.5rem;
-}
-#products .card h3 {
-  color: var(--accent-color);
-  font-size: 1.5rem;
-  text-align: center;
-  line-height: 1.5;
-}
-#products .card p {
-  color: var(--secondary-color);
-  text-align: center;
-}
-#products .card img {
-  width: 8.1875rem;
-  height: 8.1875rem;
-}
+  #products .content {
+    padding: 3.5rem 0;
+    display: grid;
+    gap: 1.875rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  #products .card {
+    max-width: 18.125rem;
+    background-color: var(--primary-color);
+    padding: 2rem;
+    box-shadow: 0 .25rem 1rem rgba(0, 0, 0, 0.25);
+    display: grid;
+    justify-items: center;
+    gap: 1.5rem;
+  }
+  #products .card h3 {
+    color: var(--accent-color);
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.5;
+  }
+  #products .card p {
+    color: var(--secondary-color);
+    text-align: center;
+  }
+  #products .card img {
+    width: 8.1875rem;
+    height: 8.1875rem;
+  }
+
 #footer {
   background-color: var(--secondary-color);
 }
-#footer .content {
-  padding: 1rem 0;
-}
-#footer .content p {
-  color: var(--primary-color);
-  text-align: center;
-  text-transform: uppercase;
-}
+  #footer .content {
+    padding: 1rem 0;
+  }
+  #footer .content p {
+    color: var(--primary-color);
+    text-align: center;
+    text-transform: uppercase;
+  }
+
 @media (max-width: 900px) {
   #products .content {
     gap: 1rem;
   }
 }
+
 @media (max-width: 800px) {
   #presentation .white-block {
     width: calc(100% - 2rem);
@@ -125,34 +160,53 @@
     max-width: 100%;
   }
 }
+
 @media (max-width: 720px) {
-  #main-header .content {
-    display: grid;
-    justify-content: unset;
+  #main-header nav {
+    position: relative;
+  }
+  #main-header nav .menu {
+    display: block;
+  }
+  #main-header nav ul {
+    position: absolute;
+    right: 0;
+    top: 2.5rem;
+    padding: 1rem 2rem;
+    background-color: var(--accent-color);
+    border-radius: .5rem;
+    display: none;
     justify-items: center;
-    gap: 1rem;
+  }
+  #main-header nav ul li {
+    margin-right: 0;
   }
 }
+
 @media (max-width: 600px) {
   #presentation .white-block {
     padding: 3rem;
   }  
 }
+
 @media (max-width: 570px) {
   #products .card {
     padding: 1rem;
   }
 }
+
 @media (max-width: 540px) {
   #information .content {
     padding: 18rem 0 3.5rem;
   }
 }
+
 @media (max-width: 500px) {
   #products .content {
     grid-template-columns: 1fr;
   }
 }
+
 @media (max-width: 480px) {
   #presentation h1 {
     font-size: 3rem;
@@ -161,6 +215,7 @@
     padding: 22rem 0 3.5rem;
   }
 }
+
 @media (max-width: 420px) {
   #information .content {
     padding: 26rem 0 3.5rem;
