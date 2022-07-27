@@ -166,7 +166,7 @@
     position: relative;
   }
   #main-header nav .menu {
-    display: block;
+    display: flex;
   }
   #main-header nav ul {
     position: absolute;
