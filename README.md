@@ -28,6 +28,8 @@ _Para a versão em Português, clique [aqui](#portuguese)._
 This page is the result of a technical test where I should follow the layout image provided below and come as close as possible to the design (without having any reference to positioning or sizes). And also add some JavaScript feature.
 </p>
 
+<br>
+
 <img src="src/TesteFront.png" alt="the design image">
 
 <br>
@@ -69,6 +71,8 @@ Desktop
 <img src="./src/test-uol-desktop-screen.gif" alt="the desktop screen gif">
 
 <br>
+<hr>
+<br>
 
 <div id="portuguese">
 
@@ -101,6 +105,8 @@ Desktop
 Essa página é o resultado de um teste técnico onde eu deveria seguir a imagem de layout fornecida abaixo e chegar o mais próximo 
 possível do design (sem ter nenhuma referência de posicionamento ou tamanhos) e também acrescentar alguma funcionalidade em JavaScript.
 </p>
+
+<br>
 
 <img src="src/TesteFront.png" alt="the design image">
 
