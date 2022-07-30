@@ -185,11 +185,19 @@
   #main-header .nav-men li {
     margin-right: 0;
   }
-}
+    #products .content {
+      grid-template-columns: 1fr;
+    }
+    #products .card {
+      max-width: 70%;
+      margin: auto;
+    }
+  }
 
 @media (max-width: 600px) {
   #presentation .white-block {
     padding: 3rem;
+    top: 40rem;
   }  
 }
 
@@ -200,14 +208,11 @@
 }
 
 @media (max-width: 540px) {
+  #presentation h1 {
+    font-size: 3.8rem;
+  }
   #information .content {
     padding: 18rem 0 3.5rem;
-  }
-}
-
-@media (max-width: 500px) {
-  #products .content {
-    grid-template-columns: 1fr;
   }
 }
 
