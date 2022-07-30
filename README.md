@@ -45,7 +45,8 @@ This page is the result of a technical test where I should follow the layout ima
 ## What I learned
 
 - Creating a central view of the layout so that, regardless of screen size, the content is always adjusted for the user to see;
-- Use a vector (svg) as the image for the responsive menu icon instead of creating one with CSS, which makes the project less coded and lighter to load.
+- Use a vector (svg) as the image for the responsive menu icon instead of creating one with CSS, which makes the project less coded and lighter to load;
+- Use events so that when the element (bento) is clicked, it triggers a function that will make the menu appear, and when it is clicked again, it makes the menu disappear, or when any item in the menu list is clicked, it disappears too.
 
 <br>
 
@@ -118,7 +119,8 @@ possível do design (sem ter nenhuma referência de posicionamento ou tamanhos) 
 ## O que aprendi
 
 - A criar uma visão central do layout para que, independente do tamanho da tela, o conteúdo sempre esteja ajustado para que o usuário veja;
-- Utilizar um vetor (svg) como imagem para o ícone do menu responsivo ao invés de criar um com CSS, que deixa o projeto com menos código e mais leve ao carregar a página.
+- Utilizar um vetor (svg) como imagem para o ícone do menu responsivo ao invés de criar um com CSS, que deixa o projeto com menos código e mais leve ao carregar a página;
+- Usar eventos para que quando o elemento (bento) for clicado acione a função que fará o menu aparecer e quando for clicado novamente faça o menu sumir ou quando algum item da lista do menu for clicado ele suma também.
 	
 <br>
 
